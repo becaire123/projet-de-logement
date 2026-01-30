@@ -246,16 +246,38 @@ a {
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
+  /* S’adapte au conteneur parent */
+  margin: 0 20px;
+  /* Centre la section */
+  gap: 20px;
+  padding-bottom: 30px;
 }
 
 .hebergements-and-populaires section {
   background-color: var(--main-bg-color);
   border-radius: 20px;
-  padding: 30px;
+  padding: 25px;
   box-sizing: border-box;
+}
+
+.hebergements-cards,
+.carte-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permet le responsive */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hebergements-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 colonnes */
+  gap: 20px 40px;
 }
 
 /****** Hebergements ***********/
