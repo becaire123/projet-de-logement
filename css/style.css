@@ -374,6 +374,100 @@ a {
   margin-bottom: 5px;
 }
 
+/*SECTION ACTIVITES */
+.activites {
+  padding: 0 20px;
+  padding-bottom: 30px;
+}
+
+.activites h2 {
+  font-weight: 700;
+  font-size: 22px;
+  padding-left: 0;
+  /* centre avec le conteneur */
+}
+
+.carte-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.carte {
+  width: 23%;
+  height: 439px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+.carte img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.carte-title {
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+/*SECTION FOOTER*/
+
+footer {
+  background-color: #ffffff;
+  color: #333;
+  margin: 0 20px;
+  font-family: "Raleway", sans-serif;
+  gap: 15px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  height: 100%;
+  padding: 25px;
+  background-color: #f2f2f2;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
